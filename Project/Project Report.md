@@ -28,7 +28,7 @@ The individual notebook tutorials can be found in the "notebooks folder" of the 
 5. Datetime
 
 ## Describe testings
-As these functions have not been built by myself I am creating assert tests for the functions themselves (as we know they already work). Instead the tests I create are for the user to use and check that they are following on correctly with the tutorial, and what they are getting is what is expected.
+As these functions have not been built by myself I am not creating assert tests for the functions themselves (as we know they already work). Instead the tests I create are for the user to use and check that they are following on correctly with the tutorial, and what they are getting is what is expected.
 
 1. The first test is to see whether the user has installed all the correct dependencies onto their machine. 
 2. The second test is to see whether their data has been correctly changed to a pandas dataframe
