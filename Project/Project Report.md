@@ -32,9 +32,9 @@ As these functions have not been built by myself I am not creating assert tests 
 
 1. The first test is to see whether the user has installed all the correct dependencies onto their machine. 
 2. The second test is to see whether their data has been correctly changed to a pandas dataframe
-3. The third test is to see whether they created a random forest classifeier model.
+3. The third test is to see whether they created a random forest classifier model.
 4. The fourth test is to see if their model has achieved a similar accuracy to what is expected if the correct parameters have been used. 
-5. The fifth test is to see that the use has only float/or numerical values in their dataframe after one hot encoding
+5. The fifth test is to see that the user has only float/or numerical values in their dataframe after one hot encoding
 
 
 ## Limitations
@@ -45,4 +45,4 @@ Real world data often has outliers, large amounts of noise, too many or too litt
 Secondly, when working with very large datasets, random forest can be very slow, and often it is not advised to run your classification on the whole dataset. This is known in machine learning as batch learning vs online learning. In batch learning the system is incapable of learning incrementely and must be trained in one batch. On-line learning however splits large datasets up and allows for incremental learning. This was not discussed in this tutorial as it is a much more complex aspect to machine learning, however with large real world datasets it might be a requirement to use On-line learning to get around computing requirements.
 
 ## Future research
-To expand upon these tutorials in the future I would like to add two more modules in that would address some of the limitations mentioned above. The first would be a module on how we can laod spatial data (such as .shp) and convert this into a random forest compatable dataset. This is really important as spatial data often needs to be analysed for the spatial relationship, so understanding how to take a file like this into python would be improtant for many researchers. The other module would be explaining the difference between random forestes classifiers and regressors. Although I breifly touched on this there is a larger explanation and another example would be useful for peoples understandings. 
+To expand upon these tutorials in the future I would like to add two more modules in that would address some of the limitations mentioned above. The first would be a module on how we can laod spatial data (such as .shp) and convert this into a random forest compatable dataset. This is really important as spatial data often needs to be analysed for the spatial relationship, so understanding how to take a file like this into python would be important for many researchers. The other module would be explaining the difference between random forestes classifiers and regressors. Although I breifly touched on this there is a larger explanation and another example would be useful for peoples understandings. 
